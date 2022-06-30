@@ -1,0 +1,9 @@
+.our-partner-page {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.our-partner-page > .map > img {
+  width: 1117px;
+}

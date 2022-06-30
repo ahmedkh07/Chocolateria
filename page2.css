@@ -1,0 +1,72 @@
+.page2 {
+  display: flex;
+  position: relative;
+  width: 1190px;
+  margin-top: 109px;
+}
+
+.page2-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 76px;
+}
+
+.title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 84px;
+}
+
+.gold {
+  color: #cb8a4d;
+}
+
+.description {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #707070;
+}
+
+.page2-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 217px;
+  height: 56px;
+  color: #ffffff;
+  border-radius: 10px;
+  background: linear-gradient(99.11deg, #d5904e -12.56%, #7d5d3f 158.17%);
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.page2-card-pic > div > img {
+  width: 275px;
+}
+
+.pic-card1 {
+  position: absolute;
+  top: 174px;
+  left: 915px;
+  z-index: 3;
+}
+
+.pic-card2 {
+  position: absolute;
+  top: 80px;
+  left: 772px;
+  z-index: 2;
+}
+
+.pic-card3 {
+  position: absolute;
+  top: 0px;
+  left: 635px;
+  z-index: 1;
+}

@@ -2,9 +2,15 @@ body {
   width: 1440px;
 }
 
+.container {
+  padding: 0px 86px;
+}
+
 .header {
   display: flex;
-  padding: 21px 160px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 67px;
   gap: 62px;
 }
 
@@ -16,10 +22,20 @@ body {
   width: 100%;
 }
 
+.nav-bar > div:nth-child(1) {
+  color: #000000;
+}
+
 .nav-bar {
   display: flex;
   align-items: center;
   gap: 40px;
+  width: 642px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #c4c4c4;
 }
 
 .socialmedia-tabs {
