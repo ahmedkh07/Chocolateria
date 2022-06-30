@@ -15,8 +15,9 @@
   text-align: center;
 }
 
-.menu-pic-collection > div > img {
+.menu-pic-collection img {
   width: 357px;
+  cursor: pointer;
 }
 
 .menu-pic-collection {
@@ -28,16 +29,13 @@
 }
 
 .menu-hero {
-  background-image: url(/images/menu-pic1.png);
-  background-repeat: none;
-  background-size: cover;
   width: 357px;
   position: relative;
 }
 
 .moving-text {
   position: absolute;
-  top: 190px;
+  bottom: 15px;
   left: 40px;
   font-family: "Poppins";
   font-weight: 700;
@@ -60,4 +58,5 @@
   font-size: 24px;
   line-height: 36px;
   margin-left: 45px;
+  cursor: pointer;
 }
