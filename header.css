@@ -22,7 +22,12 @@ body {
   width: 100%;
 }
 
-.nav-bar > div:nth-child(1) {
+.nav-bar > a {
+  text-decoration: none;
+  color: #c4c4c4;
+}
+
+.nav-bar > a:nth-child(1) {
   color: #000000;
 }
 
@@ -48,7 +53,7 @@ body {
   gap: 17px;
 }
 
-.socialmedia-tabs > div > img {
+.socialmedia-tabs > a > img {
   width: 30.76px;
 }
 
