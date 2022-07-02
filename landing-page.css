@@ -4,8 +4,12 @@
   align-items: center;
 }
 
+.landing-page-pic {
+  width: 87%;
+}
+
 .landing-page-pic > img {
-  width: 1255px;
+  width: 100%;
 }
 
 .sliders {
