@@ -20,3 +20,8 @@
 .service-collection > div > img {
   width: 370px;
 }
+
+.our-services-page .description {
+  width: 35%;
+  text-align: center;
+}

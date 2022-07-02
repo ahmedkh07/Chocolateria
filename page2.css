@@ -1,7 +1,6 @@
 .page2 {
   display: flex;
-  position: relative;
-  width: 1190px;
+  width: 100%;
   margin-top: 109px;
 }
 
@@ -10,6 +9,7 @@
   flex-direction: column;
   gap: 12px;
   padding-top: 76px;
+  width: 50%;
 }
 
 .title {
@@ -48,6 +48,11 @@
   cursor: pointer;
 }
 
+.page2-card-pic {
+  position: relative;
+  width: 50%;
+}
+
 .page2-card-pic > div > img {
   width: 275px;
 }
@@ -55,21 +60,21 @@
 .pic-card1 {
   position: absolute;
   top: 174px;
-  left: 915px;
+  left: 45%;
   z-index: 3;
 }
 
 .pic-card2 {
   position: absolute;
   top: 80px;
-  left: 772px;
+  left: 25%;
   z-index: 2;
 }
 
 .pic-card3 {
   position: absolute;
-  top: 0px;
-  left: 635px;
+  top: 0%;
+  left: 5%;
   z-index: 1;
 }
 
@@ -80,4 +85,8 @@
 
 .grow-animation:hover {
   transform: scale(1.05);
+}
+
+.cont-box {
+  width: 80%;
 }

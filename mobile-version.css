@@ -1,15 +1,9 @@
 @media only screen and (max-width: 601px) {
-  body {
-    width: 601px;
-  }
-
   .container {
     padding: 0px 36px;
   }
 
   .header {
-    display: flex;
-    justify-content: flex-start;
     padding-top: 27px;
     padding-bottom: 39px;
   }
@@ -35,11 +29,28 @@
     width: 100%;
   }
 
-  .landing-page-pic {
-    width: 87%;
+  .slide {
+    width: 25.39px;
+    height: 9.54px;
   }
 
-  .landing-page-pic > img {
+  .wide-slide {
+    width: 52.56px;
+    height: 9.54px;
+  }
+
+  .page2 {
+    flex-direction: column;
+    position: relative;
     width: 100%;
+    gap: 27px;
+  }
+
+  .page2-card-pic {
+    height: 522px;
+  }
+
+  .menu-page {
+    margin-top: 7px;
   }
 }

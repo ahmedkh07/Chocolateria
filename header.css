@@ -1,14 +1,10 @@
-body {
-  width: 1440px;
-}
-
 .container {
   padding: 0px 86px;
 }
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 67px;
   gap: 62px;
@@ -35,7 +31,6 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-  width: 44%;
   font-family: "Poppins";
   font-weight: 400;
   font-size: 24px;
@@ -49,8 +44,8 @@ body {
   align-items: center;
   background: linear-gradient(99.11deg, #d5904e -12.56%, #7d5d3f 158.17%);
   border-radius: 10px;
-  width: 11%;
   gap: 17px;
+  padding: 0px 15px;
 }
 
 .socialmedia-tabs > a > img {
